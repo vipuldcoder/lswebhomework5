@@ -1,18 +1,40 @@
 //1. print the number 5 to the console
 
+console.log(5);
+
 //2. Print your name to the console
+
+console.log("vipul");
 
 //3. Store your age as a variable called "myAge"
 
+var myAge = 22;
+
 //4. Print to the console how old you will be in 5 years
+
+myAge = myAge + 5;
+
+console.log("My Age after five years will "+myAge);
 
 //5. Store your favorite food as a variable called "myFavoriteFood"
 
+var myFavoriteFood = prompt("What's your favorite food?");
+
 //6. Publish your favorite food to `index.html` using `document.write()`
+
+document.write(myFavoriteFood);
 
 //7. Print the remainder of 14 / 3 to the console
 
+var a = 14, b = 3;
+
+console.log(a % b); 
+
 //8. Print the remainder of 829 / 13 to the console
+
+var a = 829, b = 13;
+
+console.log(a % b);
 
 //9. Create a for loop that counts from 0 to 130 by 3s
 
@@ -28,6 +50,30 @@
 
 //15. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `fizzbuzz` if the number is divisible by 15
 
+// 1 to 100
+// 3  - fizz
+// 5 - buzz
+// 15  - fizzbuzz
+
+for (var i = 0; i <= 100; i++) {
+	  if (i % 15 === 0) {
+
+		console.log("fizzbuzz");
+
+	} else if (i % 5 === 0) {
+
+		console.log("buzz");
+
+	} else if (i % 3 === 0) {
+
+		console.log("fizz");
+
+	} else {
+
+		console.log(i);
+	}
+}
+
 //EXTRA CREDIT: Fizzbuzz
 
 /*
@@ -39,3 +85,4 @@ The "Fizz-Buzz test" is an interview question designed to help filter out the 99
 Hint: Use your last three loops and if/then/else statements. You can learn about those here https://www.w3schools.com/js/js_if_else.asp
 
 */
+
