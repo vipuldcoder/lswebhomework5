@@ -38,17 +38,45 @@ console.log(a % b);
 
 //9. Create a for loop that counts from 0 to 130 by 3s
 
+for (var i = 0; i<=130; i+=3) {
+	console.log(i);
+}
+
 //10. Create a for loop that counts from 3 to 17 by 2s
+
+for (var i = 3; i<=17; i+=2) {
+	console.log(i);
+}
 
 //11. Create a for loop that counts from 100 to 3 by -1
 
+for (var i = 100; i>=3; i-=1) {
+	console.log(i);
+}
+
 //12. Create a for loop that counts from 1 to 100 by 1s
+
+for (var i = 1; i<=100; i++) {
+	console.log(i);
+}
 
 //13. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `fizz` if the number is divisible by 5
 
+for (var i = 1; i<=100; i+=5) {
+	console.log("fizz");
+}
+
 //14. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `buzz` if the number is divisible by 3
 
+for (var i = 1; i<=100; i+=3) {
+	console.log("buzz");
+}
+
 //15. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `fizzbuzz` if the number is divisible by 15
+
+for (var i = 1; i<=100; i+=15) {
+	console.log("fizzbuzz");
+}
 
 // 1 to 100
 // 3  - fizz
